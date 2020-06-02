@@ -1,0 +1,20 @@
+{
+  "title": "ark Devnet Explorer",
+  "server": "http://157.245.90.17:4003/api/v2",
+  "alias": "Development",
+  "activeDelegates": "51",
+  "rewardOffset": "1",
+  "currencies": [],
+  "defaults": {
+    "token": "ARK",
+    "symbol": "a$",
+    "currency": null,
+    "priceChartOptions": {
+      "enabled": false,
+      "period": "day",
+      "type": "price"
+    },
+    "priceChart": false
+  },
+  "knownWallets": {}
+}

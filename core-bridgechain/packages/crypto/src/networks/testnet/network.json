@@ -1,0 +1,18 @@
+{
+  "name": "testnet",
+  "messagePrefix": "ARK message:\n",
+  "bip32": {
+    "public": 70617039,
+    "private": 70615956
+  },
+  "pubKeyHash": 23,
+  "nethash": "46b3bde0f75d7e841fe5b89271dc37eec317972ee387210d4b8f4cd2152723bb",
+  "wif": 12,
+  "slip44": 1,
+  "aip20": 0,
+  "client": {
+    "token": "ARK",
+    "symbol": "a$",
+    "explorer": "http://0.0.0.0:4200"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "mainnet",
+  "messagePrefix": "ARK message:\n",
+  "bip32": {
+    "public": 46090600,
+    "private": 46089520
+  },
+  "pubKeyHash": 23,
+  "nethash": "cb30929b1d7ea86e0d901f55f4a08a77483b7f0cc4aaea20006900c38a15fb3a",
+  "wif": 209,
+  "slip44": 111,
+  "aip20": 0,
+  "client": {
+    "token": "ARK",
+    "symbol": "a$",
+    "explorer": "http://0.0.0.0:4200"
+  }
+}

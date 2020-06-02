@@ -1,0 +1,91 @@
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+==> Stopping...
+==> Stop OK!
+==> Starting Explorer...
+Will use the arguments: host: '0.0.0.0', port: '4200', baseUrl: '/', network: 'testnet', routerMode: 'hash'
+
+-  Building for production...
+Starting type checking service...
+Using 1 worker with 2048MB memory limit
+ WARNING  Compiled with 2 warnings1:34:10 AM
+
+ warning  
+
+asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets: 
+  fonts/Inter-Bold.cd06d8e1.otf (249 KiB)
+  fonts/Inter-SemiBold.ea5ee9d9.otf (248 KiB)
+  js/app.f222fb31.js (266 KiB)
+  js/chunk-vendors.cd50ebe2.js (1.32 MiB)
+
+ warning  
+
+entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+Entrypoints:
+  app (1.68 MiB)
+      css/chunk-vendors.a63f7f00.css
+      js/chunk-vendors.cd50ebe2.js
+      css/app.672b8bb3.css
+      js/app.f222fb31.js
+
+
+  File                                      Size             Gzipped
+
+  dist/js/chunk-vendors.cd50ebe2.js         1352.04 KiB      430.60 KiB
+  dist/js/app.f222fb31.js                   266.43 KiB       62.35 KiB
+  dist/js/home.27fa2c50.js                  190.20 KiB       56.92 KiB
+  dist/js/wallet.17852d06.js                23.05 KiB        5.08 KiB
+  dist/js/transaction.d9b4a757.js           19.95 KiB        4.53 KiB
+  dist/js/transactions.91dd7390.js          18.55 KiB        3.54 KiB
+  dist/js/search.5407b89f.js                17.30 KiB        3.52 KiB
+  dist/js/block.92a567c7.js                 15.86 KiB        3.65 KiB
+  dist/js/delegate-monitor.3407cc0c.js      12.42 KiB        2.93 KiB
+  dist/js/blocks.95c738c1.js                7.74 KiB         1.79 KiB
+  dist/js/delegates.91847430.js             3.88 KiB         1.46 KiB
+  dist/js/voters.a5dbe7e3.js                3.71 KiB         1.42 KiB
+  dist/js/top-wallets.08aa50a0.js           3.30 KiB         1.34 KiB
+  dist/js/bridgechains.a1ddc2a8.js          3.27 KiB         1.30 KiB
+  dist/js/businesses.bd59670d.js            3.23 KiB         1.29 KiB
+  dist/js/404.a9c53ef6.js                   1.23 KiB         0.66 KiB
+  dist/css/chunk-vendors.a63f7f00.css       57.90 KiB        4.49 KiB
+  dist/css/app.672b8bb3.css                 47.29 KiB        8.70 KiB
+  dist/css/wallet.75e61d18.css              1.45 KiB         0.50 KiB
+  dist/css/delegate-monitor.0a3f7eda.css    0.52 KiB         0.28 KiB
+  dist/css/home.6eb3fea9.css                0.45 KiB         0.26 KiB
+  dist/css/transactions.f45307ad.css        0.40 KiB         0.24 KiB
+  dist/css/transaction.8a714455.css         0.07 KiB         0.09 KiB
+  dist/css/block.91d96b8d.css               0.06 KiB         0.07 KiB
+
+  Images and other types of assets omitted.
+
+ DONE  Build complete. The dist directory is ready to be deployed.
+ INFO  Check out deployment instructions at https://cli.vuejs.org/guide/deployment.html
+      
+[PM2] Starting /home/mlh_workshop/core-explorer/express-server.js in fork_mode (1 instance)
+[PM2] Done.
+┌─────┬───────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id  │ name          │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├─────┼───────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 1   │ ark-forger    │ default     │ 2.6.38  │ fork    │ 1469     │ 93s    │ 0    │ online    │ 0%       │ 108.2mb  │ mlh_wor… │ disabled │
+│ 0   │ ark-relay     │ default     │ 2.6.38  │ fork    │ 1353     │ 109s   │ 0    │ online    │ 0%       │ 123.4mb  │ mlh_wor… │ disabled │
+│ 2   │ explorer      │ default     │ 3.0.0   │ fork    │ 1557     │ 0s     │ 0    │ online    │ 0%       │ 11.7mb   │ mlh_wor… │ disabled │
+└─────┴───────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+==> Start OK!
